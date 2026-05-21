@@ -64,12 +64,12 @@
                     </div>
                 </div>
 
-                <div class="hero-visual" aria-hidden="truep">
+                <div class="hero-visual" aria-hidden="truep" id="hero-visual">
                     <div class="hero-card glow-card">
                         <div class="visual-header">
-                            <span class="dot green"></span>
-                            <span class="dot"></span>
-                            <span class="dot"></span>
+                            <button class="dot green dot-vi" ></button>
+                            <button class="dot dot-yaba"></button>
+                            <button class="dot dot-ikeja"></button>
                         </div>
                         <div class="visual-panel">
                             <div class="panel-left">
@@ -82,11 +82,11 @@
                                     <strong>Victoria Island</strong>
                                 </div>
                             </div>
-                            <div class="panel-item">
+                            <!-- <div class="panel-item">
                                     <span>Spot</span>
                                     <strong>PE-442</strong>
-                                </div>
-                            <div class="panel-chip"><a href="">Available now</a></div>
+                                </div> -->
+                            <div class="panel-chip" id="panelChip"><div>Available now</div></div>
                         </div>
                         <div class="visual-graph">
                             <div class="google-map">
@@ -110,7 +110,100 @@
                         </div>
                     </div>
                 </div>
+                <div class="hero-visual1" aria-hidden="truep" id="hero-visual1">
+                    <div class="hero-card glow-card">
+                        <div class="visual-header">
+                            <button class="dot dot-vi"></button>
+                            <button class="dot green dot-yaba"></button>
+                            <button class="dot dot-ikeja"></button>
+                        </div>
+                        <div class="visual-panel">
+                            <div class="panel-left">
+                                <div class="panel-item">
+                                    <span>City</span>
+                                    <strong>Lagos</strong>
+                                </div>
+                                <div class="panel-item">
+                                    <span>Location</span>
+                                    <strong>Yaba Central</strong>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-item">
+                                    <span>Spot</span>
+                                    <strong>PE-903</strong>
+                                </div> -->
+                            <div class="panel-chip" id="panelChip1"><div>Available now</div></div>
+                        </div>
+                        <div class="visual-graph">
+                            <div class="google-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13333.629605329317!2d3.363343173992727!3d6.507530072989271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c8c358b3f4b%3A0x5552cfbd43df8434!2sYaba%2C%20Oworonshoki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1778686402192!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <!-- <div class="graph-bar tall"></div>
+                            <div class="graph-bar short"></div>
+                            <div class="graph-bar medium"></div>
+                            <div class="graph-bar tall"></div>
+                            <div class="graph-bar medium"></div> -->
+                        </div>
+                        <div class="visual-footer">
+                            <div>
+                                <span>ETA</span>
+                                <strong>15 min</strong>
+                            </div>
+                            <div>
+                                <span>Rate</span>
+                                <strong>₦1,100/hr</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual2" aria-hidden="truep" id="hero-visual2">
+                    <div class="hero-card glow-card">
+                        <div class="visual-header">
+                            <button class="dot dot-vi"></button>
+                            <button class="dot dot-yaba"></button>
+                            <button class="dot green"></button>
+                        </div>
+                        <div class="visual-panel">
+                            <div class="panel-left">
+                                <div class="panel-item">
+                                    <span>City</span>
+                                    <strong>Lagos</strong>
+                                </div>
+                                <div class="panel-item">
+                                    <span>Location</span>
+                                    <strong>Ikeja City Mall</strong>
+                                </div>
+                            </div>
+                            <!-- <div class="panel-item">
+                                    <span>Spot</span>
+                                    <strong>PE-505</strong>
+                                </div> -->
+                            <div class="panel-chip" id="panelChip2"><div>Available now</div></div>
+                        </div>
+                        <div class="visual-graph">
+                            <div class="google-map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11209.810301697038!2d3.350812231731346!3d6.613781671899439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93b65ba86e15%3A0x3ae060fb3436c3ad!2sIkeja%20City%20Mall!5e0!3m2!1sen!2sng!4v1778678186957!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                            <!-- <div class="graph-bar tall"></div>
+                            <div class="graph-bar short"></div>
+                            <div class="graph-bar medium"></div>
+                            <div class="graph-bar tall"></div>
+                            <div class="graph-bar medium"></div> -->
+                        </div>
+                        <div class="visual-footer">
+                            <div>
+                                <span>ETA</span>
+                                <strong>30 min</strong>
+                            </div>
+                            <div>
+                                <span>Rate</span>
+                                <strong>₦1,200/hr</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
+            
 
         <!-- Features Section -->
         <section class="section features-section" id="features">
@@ -207,126 +300,224 @@
         <!-- Ikeja City Mall -->
         <div id="ikejaMall">
                 <button class="btn btn-secondary" id="closeIkeja">Back</button>
-                <!-- <p>Spot Highlight</p> -->
-            <div>
+
+                <!-- Name and map -->
                 <div class="menu1">
                     <h2>Ikeja City Mall - A Prime Parking Location</h2>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11209.810301697038!2d3.350812231731346!3d6.613781671899439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b93b65ba86e15%3A0x3ae060fb3436c3ad!2sIkeja%20City%20Mall!5e0!3m2!1sen!2sng!4v1778678186957!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <div class="menu2">
-                    <select>
-                        <option selected disabled>Select a parking spot</option>
-                        <option>PE 501</option>
-                        <option>PE 502</option>
-                        <option>PE 503</option>
-                        <option>PE 504</option>
-                        <option>PE 505</option>
-                        <option>PE 506</option>
-                        <option>PE 507</option>
-                        <option>PE 508</option>
-                        <option>PE 509</option>
-                        <option>PE 601</option>
-                        <option>PE 602</option>
-                        <option>PE 603</option>
-                        <option>PE 604</option>
-                        <option>PE 605</option>
-                        <option>PE 606</option>
-                        <option>PE 607</option>
-                        <option>PE 608</option>
-                        <option>PE 609</option>
-                    </select>
-                    <select>
-                        <option selected disabled>Select a duration</option>
-                        <option>1 hour</option>
-                        <option>2 hours</option>
-                        <option>3 hours</option>
-                        <option>4 hours</option>
-                        <option>5 hours</option>
-                        <option>6 hours</option>
-                    </select>
-                    <select>
-                        <option selected disabled>Select a payment method</option>
-                        <option>Debit Card</option>
-                        <option>Mobile Money</option>
-                    </select>
+                <!-- Selections -->
+                <div class="menu0">
+                    <div class="contact-details">
+                        <input type="text" placeholder="Enter your fullname" id="fullName-ikeja">
+                        <input type="text" placeholder="Vehicle registration Number" id="email-ikeja">
+                        <input type="text" placeholder="Enter your phone number" id="phone-ikeja">
+                    </div>  
+                    <div class="menu2">
+                        <select class="select" id="lot-ikeja">
+                            <option selected disabled>Select a parking spot</option>
+                            <option>PE 501</option>
+                            <option>PE 502</option>
+                            <option>PE 503</option>
+                            <option>PE 504</option>
+                            <option>PE 505</option>
+                            <option>PE 506</option>
+                            <option>PE 507</option>
+                            <option>PE 508</option>
+                            <option>PE 509</option>
+                            <option>PE 601</option>
+                            <option>PE 602</option>
+                            <option>PE 603</option>
+                            <option>PE 604</option>
+                            <option>PE 605</option>
+                            <option>PE 606</option>
+                            <option>PE 607</option>
+                            <option>PE 608</option>
+                            <option>PE 609</option>
+                        </select>
+                        <select class="select" id="duration-ikeja">
+                            <option selected disabled>Select a duration</option>
+                            <option>1 hour</option>
+                            <option>2 hours</option>
+                            <option>3 hours</option>
+                            <option>4 hours</option>
+                            <option>5 hours</option>
+                            <option>6 hours</option>
+                            <option>7 hours</option>
+                            <option>8 hours</option>
+                            <option>9 hours</option>
+                            <option>10 hours</option>
+                            <option>11 hours</option>
+                            <option>12 hours</option>
+                        </select>
+                        <div class="time-selection">
+                            <select class="time" id="startTime-ikeja">
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime" id="startMeridiem-ikeja">
+                                <option>am</option>
+                                <option>pm</option>
+                            </select> 
+                            <!-- <select class="time" id="endTime">
+                                <option>12:00</option>
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime" id="endMeridiem">
+                                <option>pm</option>
+                                <option>am</option>
+                            </select> -->
+                        </div>
+                        
+                    </div>
                 </div>
+                    
+                <!-- footer -->
                     <ul>
                         <li><strong>Price:</strong> ₦1,200 / hour</li>
                         <li><strong>Availability:</strong> Real-time updates</li>
                         <li><strong>Amenities:</strong> 24/7 security, well-lit area</li>
                     </ul>
-                    <a href="" class="btn btn-primary">Book Now</a>
-                </div>
-            </div>
+                <button class="btn btn-primary" id="bookBtn-ikeja">Book Now</button>
         </div>
 
         <!-- Lekki Phase 1 -->
         <div id="lekkiPhase1">
                 <button class="btn btn-secondary" id="closeLekki">Back</button>
-                <!-- <p>Spot Highlight</p> -->
-            <div>
-                <div class="menu1">
+                
+            <!-- Name and map -->
+            <div class="menu1">
                     <h2>Lekki Phase 1 - A Prime Parking Location</h2>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.495577814654!2d3.4504166006882744!3d6.450240780997192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf452da3bd44b%3A0x47331fb41adc9d28!2sLekki%20Phase%201%2C%20Lekki%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1778685355973!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="menu2">
-                    <select>
-                        <option selected disabled>Select a parking spot</option>
-                        <option>PE 101</option>
-                        <option>PE 102</option>
-                        <option>PE 103</option>
-                        <option>PE 104</option>
-                        <option>PE 105</option>
-                        <option>PE 106</option>
-                        <option>PE 107</option>
-                        <option>PE 108</option>
-                        <option>PE 109</option>
-                        <option>PE 801</option>
-                        <option>PE 802</option>
-                        <option>PE 803</option>
-                        <option>PE 804</option>
-                        <option>PE 805</option>
-                        <option>PE 806</option>
-                        <option>PE 807</option>
-                        <option>PE 808</option>
-                        <option>PE 809</option>
-                    </select>
-                    <select>
-                        <option selected disabled>Select a duration</option>
-                        <option>1 hour</option>
-                        <option>2 hours</option>
-                        <option>3 hours</option>
-                        <option>4 hours</option>
-                        <option>5 hours</option>
-                        <option>6 hours</option>
-                    </select>
-                    <select>
-                        <option selected disabled>Select a payment method</option>
-                        <option>Debit Card</option>
-                        <option>Mobile Money</option>
-                    </select>
-                </div>
-                    <ul>
-                        <li><strong>Price:</strong> ₦1,500 / hour</li>
-                        <li><strong>Availability:</strong> Real-time updates</li>
-                        <li><strong>Amenities:</strong> 24/7 security, well-lit area</li>
-                    </ul>
-                    <a href="" class="btn btn-primary">Book Now</a>
-                </div>
             </div>
-        </div>
+                <!-- Selections -->
+                <div class="menu0">
+                    <div class="contact-details">
+                            <input type="text" placeholder="Enter your fullname" id="fullName-lekki">
+                            <input type="text" placeholder="Vehicle registration number" id="email-lekki">
+                            <input type="text" placeholder="Enter your phone number" id="phone-lekki">
+                    </div>  
+                    <div class="menu2">
+                        <select class="select" id="lot-lekki">
+                            <option selected disabled>Select a parking spot</option>
+                            <option>PE 101</option>
+                            <option>PE 102</option>
+                            <option>PE 103</option>
+                            <option>PE 104</option>
+                            <option>PE 105</option>
+                            <option>PE 106</option>
+                            <option>PE 107</option>
+                            <option>PE 108</option>
+                            <option>PE 109</option>
+                            <option>PE 801</option>
+                            <option>PE 802</option>
+                            <option>PE 803</option>
+                            <option>PE 804</option>
+                            <option>PE 805</option>
+                            <option>PE 806</option>
+                            <option>PE 807</option>
+                            <option>PE 808</option>
+                            <option>PE 809</option>
+                        </select>
+                        <select class="select" id="duration-lekki">
+                            <option selected disabled>Select a duration</option>
+                            <option>1 hour</option>
+                            <option>2 hours</option>
+                            <option>3 hours</option>
+                            <option>4 hours</option>
+                            <option>5 hours</option>
+                            <option>6 hours</option>
+                            <option>7 hours</option>
+                            <option>8 hours</option>
+                            <option>9 hours</option>
+                            <option>10 hours</option>
+                            <option>11 hours</option>
+                            <option>12 hours</option>
+                        </select>
+                        <div class="time-selection">
+                            <select class="time" id="startTime-lekki">
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime" id="startMeridiem-lekki">
+                                <option>am</option>
+                                <option>pm</option>
+                            </select> 
+                            <!-- <select class="time" id="endTime">
+                                <option>12:00</option>
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime" id="endMeridiem">
+                                <option>pm</option>
+                                <option>am</option>
+                            </select> -->
+                        </div>
+                    </div>
+                </div>
+                    <!-- footer -->
+                        <ul>
+                            <li><strong>Price:</strong> ₦1,500 / hour</li>
+                            <li><strong>Availability:</strong> Real-time updates</li>
+                            <li><strong>Amenities:</strong> 24/7 security, well-lit area</li>
+                        </ul>
+                        <button class="btn btn-primary" id="bookBtn-lekki">Book Now</button>
+            </div>
 
         <!-- Victoria Island -->
         <div id="victoriaIsland">
                 <button class="btn btn-secondary" id="closeVictoria">Back</button>
-                <!-- <p>Spot Highlight</p> -->
-            <div>
-                <div class="menu1">
-                    <h2>Victoria Island - A Prime Parking Location</h2>
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5606.961181037946!2d3.4189868195683633!3d6.429970230580943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf52dc0328169%3A0x7885a1a33689a576!2sVictoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1778580801772!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <!-- Name and map -->
+            <div class="menu1">
+                <h2>Victoria Island - A Prime Parking Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5606.961181037946!2d3.4189868195683633!3d6.429970230580943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf52dc0328169%3A0x7885a1a33689a576!2sVictoria%20Island%2C%20Lagos%20106104%2C%20Lagos!5e0!3m2!1sen!2sng!4v1778580801772!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Selection -->
+            <div class="menu0">
+                <div class="contact-details">
+                    <input type="text" placeholder="Enter your fullname" id="fullName-victoria">
+                    <input type="text" placeholder="Vehicle registration number" id="email-victoria">
+                    <input type="text" placeholder="Enter your phone number" id="phone-victoria">
                 </div>
                 <div class="menu2">
-                    <select>
+                    <select class="select" id="lot-victoria">
                         <option selected disabled>Select a parking spot</option>
                         <option>PE 441</option>
                         <option>PE 442</option>
@@ -347,7 +538,7 @@
                         <option>PE 638</option>
                         <option>PE 639</option>
                     </select>
-                    <select>
+                    <select class="select" id="duration-victoria">
                         <option selected disabled>Select a duration</option>
                         <option>1 hour</option>
                         <option>2 hours</option>
@@ -355,44 +546,79 @@
                         <option>4 hours</option>
                         <option>5 hours</option>
                         <option>6 hours</option>
+                        <option>7 hours</option>
+                        <option>8 hours</option>
+                        <option>9 hours</option>
+                        <option>10 hours</option>
+                        <option>11 hours</option>
+                        <option>12 hours</option>
                     </select>
-                    <select>
-                        <option selected disabled>Select a payment method</option>
-                        <option>Debit Card</option>
-                        <option>Mobile Money</option>
-                    </select>
-                </div>
-                    <ul>
-                        <li><strong>Price:</strong> ₦1,800 / hour</li>
-                        <li><strong>Availability:</strong> Real-time updates</li>
-                        <li><strong>Amenities:</strong> 24/7 security, well-lit area</li>
-                    </ul>
-                    <a href="" class="btn btn-primary">Book Now</a>
+                    <div class="time-selection">
+                            <select class="time" id="startTime-victoria">
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime" id="startMeridiem-victoria">
+                                <option>am</option>
+                                <option>pm</option>
+                            </select> 
+                            <!-- <select class="time">
+                                <option>12:00</option>
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime">
+                                <option>pm</option>
+                                <option>am</option>
+                            </select> -->
+                        </div>
                 </div>
             </div>
+                <ul>
+                    <li><strong>Price:</strong> ₦1,800 / hour</li>
+                    <li><strong>Availability:</strong> Real-time updates</li>
+                    <li><strong>Amenities:</strong> 24/7 security, well-lit area</li>
+                </ul>
+                <button class="btn btn-primary" id="bookBtn-victoria">Book Now</button>
         </div>
+            
 
         <!-- Yaba Central -->
         <div id="yabaCentral">
-                <button class="btn btn-secondary" id="closeYaba">Back</button>
-                <!-- <p>Spot Highlight</p> -->
-            <div>
-                <div class="menu1">
-                    <h2>Yaba Central - A Prime Parking Location</h2>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13333.629605329317!2d3.363343173992727!3d6.507530072989271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c8c358b3f4b%3A0x5552cfbd43df8434!2sYaba%2C%20Oworonshoki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1778686402192!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <button class="btn btn-secondary" id="closeYaba">Back</button>
+            <!-- Name and map -->
+            <div class="menu1">
+                <h2>Yaba Central - A Prime Parking Location</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13333.629605329317!2d3.363343173992727!3d6.507530072989271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c8c358b3f4b%3A0x5552cfbd43df8434!2sYaba%2C%20Oworonshoki%2C%20Lagos!5e0!3m2!1sen!2sng!4v1778686402192!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Selections -->
+            <div class="menu0">
+                <div class="contact-details">
+                    <input type="text" placeholder="Enter your fullname" id="fullName-yaba">
+                    <input type="text" placeholder="Vehicle registration number" id="email-yaba">
+                    <input type="text" placeholder="Enter your phone number" id="phone-yaba">
                 </div>
                 <div class="menu2">
-                    <select>
+                    <select class="select" id="lot-yaba">
                         <option selected disabled>Select a parking spot</option>
-                        <option>PE 301</option>
-                        <option>PE 302</option>
-                        <option>PE 303</option>
-                        <option>PE 304</option>
-                        <option>PE 305</option>
-                        <option>PE 306</option>
-                        <option>PE 307</option>
-                        <option>PE 308</option>
-                        <option>PE 309</option>
                         <option>PE 701</option>
                         <option>PE 702</option>
                         <option>PE 703</option>
@@ -402,31 +628,79 @@
                         <option>PE 707</option>
                         <option>PE 708</option>
                         <option>PE 709</option>
-                    </select>
-                    <select>
-                        <option selected disabled>Select a duration</option>
-                        <option>1 hour</option>
-                        <option>2 hours</option>
-                        <option>3 hours</option>
-                        <option>4 hours</option>
-                        <option>5 hours</option>
-                        <option>6 hours</option>
-                    </select>
-                    <select>
-                        <option selected disabled>Select a payment method</option>
-                        <option>Debit Card</option>
-                        <option>Mobile Money</option>
-                    </select>
+                        <option>PE 901</option>
+                        <option>PE 902</option>
+                        <option>PE 903</option>
+                        <option>PE 904</option>
+                        <option>PE 905</option>
+                        <option>PE 906</option>
+                        <option>PE 907</option>
+                        <option>PE 908</option>
+                        <option>PE 909</option>
+                        </select>
+                        <select class="select" id="duration-yaba">
+                            <option selected disabled>Select a duration</option>
+                            <option>1 hour</option>
+                            <option>2 hours</option>
+                            <option>3 hours</option>
+                            <option>4 hours</option>
+                            <option>5 hours</option>
+                            <option>6 hours</option>
+                            <option>7 hours</option>
+                            <option>8 hours</option>
+                            <option>9 hours</option>
+                            <option>10 hours</option>
+                            <option>11 hours</option>
+                            <option>12 hours</option>
+                        </select>
+                        <div class="time-selection">
+                            <select class="time" id="startTime-yaba">
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime" id="startMeridiem-yaba">
+                                <option>am</option>
+                                <option>pm</option>
+                            </select> 
+                            <!-- <select class="time">
+                                <option>12:00</option>
+                                <option>01:00</option>
+                                <option>02:00</option>
+                                <option>03:00</option>
+                                <option>04:00</option>
+                                <option>05:00</option>
+                                <option>07:00</option>
+                                <option>08:00</option>
+                                <option>09:00</option>
+                                <option>10:00</option>
+                                <option>11:00</option>
+                                <option>12:00</option>
+                            </select>
+                            <select class="meritime">
+                                <option>pm</option>
+                                <option>am</option>
+                            </select> -->
+                        </div>
+                    </div>
                 </div>
+                <!-- footer -->
                     <ul>
                         <li><strong>Price:</strong> ₦1,100 / hour</li>
                         <li><strong>Availability:</strong> Real-time updates</li>
                         <li><strong>Amenities:</strong> 24/7 security, well-lit area</li>
                     </ul>
-                    <a href="" class="btn btn-primary">Book Now</a>
-                </div>
-            </div>
+                    <button class="btn btn-primary" id="bookBtn-yaba">Book Now</button>
         </div>
+        
 
 
 
@@ -491,7 +765,6 @@
         
         <!-- Contact Support Section -->
         <section id="Support-form">
-
             <h3>We're here to assist you!</h3>
             <input type="text" placeholder="Enter your Full Name">
             <input type="email" placeholder="Enter your email address">
@@ -505,8 +778,12 @@
             <p class="note">At ParkEasy, we believe finding a parking space should be simple, fast, and stress-free. Our platform was created to help drivers easily locate and reserve available parking spots without wasting time driving around crowded areas. <br>ParkEasy provides a smooth and user-friendly experience that allows users to check parking availability in real time, choose convenient locations, and make quick reservations directly from their browser.Our goal is to make everyday parking smarter, more convenient, and more efficient for everyone — whether you’re heading to work, shopping, or visiting a new location.
 
             With simplicity, accessibility, and convenience at the center of our design, ParkEasy aims to improve the way people experience parking in busy cities.</p>
-                    </section>
-        </main>
+        </section>
+
+        <a href="#home" class="Up">
+            ⬆
+        </a>
+    </main>
 
     <!-- Footer -->
     <footer class="footer" id="contact">
